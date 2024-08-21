@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.proj{
+    width: 700px;
+    background-color: white;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-auto-rows: 570px;
+    
+}
+            /* left */
+
+.left{
+    background-color: rgb(22, 21, 26);
+    color: aliceblue;
+    border-bottom-left-radius: 30%;
+
+}
+
+.imag{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 254, 252);
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.info{
+    width: 190px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.about{
+    width: 190px;
+    color: gray;
+}
+.ab:hover{
+    color:green;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.im:hover{
+   color: white;
+   cursor: pointer;
+   font-family: 'Sofia';font-size: 14px;
+}
+
+.contact{
+    width: 160px;
+    color: gray;
+}
+.con:hover{
+    color:green;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.im{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.iconss{
+    display: flex;
+    margin-top: 5px;
+    gap:5px;
+}
+.ic-co:hover{
+    color:green;
+    cursor: pointer;
+}
+.fred:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Sofia';font-size: 12px;
+}
+.mail:hover{
+    color:green;
+    cursor: pointer;
+}
+.bj:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Sofia';font-size: 14px;
+}
+.fb:hover{
+    color:green;
+    cursor: pointer;
+}
+.rwa:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Sofia';font-size: 14px;
+}
+.inst:hover{
+    color:green;
+    cursor: pointer; 
+}
+.ben:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Sofia';font-size: 14px;
+}
+.lang:hover{
+    color:green;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+    font-family: 'Sofia';font-size: 14px;
+}
+.facebook{
+    display: flex;
+    margin-top: 3px;
+    gap:8px;
+}
+.e-mail{
+    display: flex;
+    margin-top: 3px;
+    gap:7px;
+}
+.instagram{
+    display: flex;
+    margin-top: 3px;
+    gap:7px;
+}
+.lug{
+    color: gray;
+    margin-top: 10px;
+}
+ul{
+    margin-left: 20px;
+}
+
+             /* right */
+
+
+.right{
+    background-color: white;
+}
+.head{
+    background-color: rgb(22, 21, 26);
+    height: 90px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+  
+   
+}
+.h-1{
+    font-family: "Foldit", sans-serif;
+    margin-top: 10px;
+    color: white;
+    font-size:25px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.bos{
+  width: 110px;
+margin-left: 40%;
+border-top: 2px solid white;
+padding-top: 5px;
+}
+.h-2{
+    font-size: 10px;
+}
+.hor{
+    margin-left: 30px;
+    margin-top:30px;
+}
+.gradid{
+    display: flex;
+}
+.ann{
+    color: gray;
+    margin-left: 20px;
+    border-left: 2px solid gray;
+    padding-left:10px;
+    margin-top: 10px;
+}
+
+.ed{
+    color: gray;
+}
+
+.grad:hover{
+    color:green;
+    cursor: pointer;
+}
+
+.ann:hover{
+    color: black;
+    cursor: pointer;
+    font-family: 'Sofia';font-size: 14px;
+}
+.ed:hover{
+    color:green;
+    cursor: pointer;
+    text-transform: uppercase;  
+}
+.pop{
+    margin-bottom: 10px;
+}
+
+@media only screen and  (max-width:600px){
+    .proj{
+
+     width: 200px; 
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .grad{
+        color: green;
+    }
+   
+}
